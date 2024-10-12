@@ -21,7 +21,7 @@ void draw()
     }
   }
   textSize(20);
-  text("SUM: "+sum, 0, 340);
+  text("SUM: "+sum+(sum==54?" Congrats on a 1 in 10077696 achievment":""), 0, 340);
 }
 void mousePressed()
 {
