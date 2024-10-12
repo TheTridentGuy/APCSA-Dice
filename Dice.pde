@@ -1,4 +1,3 @@
-// Good code :3 UwU 
 void setup()
 {
   size(320, 340);
@@ -21,7 +20,7 @@ void draw()
     }
   }
   textSize(20);
-  text("SUM: "+sum+(sum==54?" Congrats on a 1 in 10077696 achievment":""), 0, 340);
+  text("SUM: "+sum+(sum==54?", a 1 in 10077696 roll btw":""), 0, 340);
 }
 void mousePressed()
 {
